@@ -1,0 +1,60 @@
+{
+  "name": "karma-serve-static-map",
+  "version": "1.0.0",
+  "description": "Individually map multiple locations on the local filesystem to multiple base URLs in Karma.",
+  "main": "lib/serve-static-map.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib/**/*.js"
+  ],
+  "scripts": {
+    "lint": "eslint *.js lib/**/*.js test/**/*.js",
+    "test": "mocha",
+    "posttest": "npm run lint",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "postversion": "npm run test && npm publish",
+    "postpublish": "git push origin --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lddubeau/karma-serve-static-map.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "middleware",
+    "static files",
+    "testing"
+  ],
+  "author": "Louis-Dominique Dubeau <ldd@lddubeau.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lddubeau/karma-serve-static-map/issues"
+  },
+  "homepage": "https://github.com/lddubeau/karma-serve-static-map#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^7.4.0",
+    "@commitlint/config-angular": "^7.3.1",
+    "chai": "^4.2.0",
+    "conventional-changelog-cli": "^2.0.11",
+    "eslint": "^5.12.1",
+    "eslint-config-lddubeau-base": "^3.0.1",
+    "husky": "^1.3.1",
+    "mocha": "^5.2.0",
+    "node-mocks-http": "^1.7.3",
+    "sinon": "^7.2.3",
+    "sinon-chai": "^3.3.0"
+  },
+  "dependencies": {
+    "serve-static": "^1.13.2"
+  },
+  "peerDependencies": {
+    "karma": ">=1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  }
+}
