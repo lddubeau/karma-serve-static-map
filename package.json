@@ -40,7 +40,7 @@
     "conventional-changelog-cli": "^2.0.23",
     "eslint": "^5.16.0",
     "eslint-config-lddubeau-base": "^3.0.5",
-    "husky": "^3.0.1",
+    "husky": "^3.0.2",
     "mocha": "^6.2.0",
     "node-mocks-http": "^1.7.6",
     "sinon": "^7.3.2",
