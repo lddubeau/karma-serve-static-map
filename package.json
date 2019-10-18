@@ -41,7 +41,7 @@
     "eslint": "^6.5.1",
     "eslint-config-lddubeau-base": "^4.0.2",
     "husky": "^3.0.9",
-    "mocha": "^6.2.1",
+    "mocha": "^6.2.2",
     "node-mocks-http": "^1.8.0",
     "sinon": "^7.5.0",
     "sinon-chai": "^3.3.0"
