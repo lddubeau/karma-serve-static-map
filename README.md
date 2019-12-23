@@ -15,6 +15,7 @@ npm i -D karma-serve-static-map
 
 ## Usage
 
+```
 module.exports = function configure(config) {
   config.set({
     middleware: ["serve-static-map"],
@@ -24,6 +25,7 @@ module.exports = function configure(config) {
     ],
   });
 };
+```
 
 The ``serveStaticMap`` configuration option is an array whose elements sets up a
 mapping from a URL to a file system location. Each element has the fields:
