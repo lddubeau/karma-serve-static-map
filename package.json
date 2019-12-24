@@ -1,6 +1,6 @@
 {
   "name": "karma-serve-static-map",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Individually map multiple locations on the local filesystem to multiple base URLs in Karma.",
   "main": "lib/serve-static-map.js",
   "directories": {
