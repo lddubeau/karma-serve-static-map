@@ -25,30 +25,24 @@ class LoggerFactory {
   }
 }
 
-async function getBufferedData(resp) {
-  return new Promise((resolve) => {
-    resp.on("end", () => {
-      resolve(resp._getBuffer().toString());
-    });
+const getBufferedData = async resp => new Promise(resolve => {
+  resp.on("end", () => {
+    resolve(resp._getBuffer().toString());
   });
-}
+});
 
-function response() {
-  return httpMocks.createResponse({ eventEmitter: EventEmitter });
-}
+const response = () => httpMocks.createResponse({ eventEmitter: EventEmitter });
 
-function request(url) {
-  return httpMocks.createRequest({
-    method: "GET",
-    url,
-  });
-}
+const request = url => httpMocks.createRequest({
+  method: "GET",
+  url,
+});
 
 function makeNext(sandbox) {
   const stub = sandbox.stub();
   let r;
   return {
-    nextCalled: new Promise((resolve) => {
+    nextCalled: new Promise(resolve => {
       r = resolve;
       stub.callsFake(r);
     }),
