@@ -44,7 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prefer-arrow": "^1.1.7",
     "eslint-plugin-react": "^7.17.0",
-    "husky": "^4.0.4",
+    "husky": "^4.0.5",
     "mocha": "^7.0.0",
     "node-mocks-http": "^1.8.1",
     "sinon": "^8.0.4",
