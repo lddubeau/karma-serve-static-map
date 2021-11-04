@@ -1,3 +1,23 @@
+# [3.0.0](https://github.com/lddubeau/karma-serve-static-map/compare/v2.0.0...v3.0.0) (2021-11-04)
+
+
+### Bug Fixes
+
+* require legacy-peer-deps for newer npm versions ([34ac246](https://github.com/lddubeau/karma-serve-static-map/commit/34ac2464c8a946cd07f4171aab50ffe39c2f9776))
+* upgrade packages together ([9d03db3](https://github.com/lddubeau/karma-serve-static-map/commit/9d03db3c365e5d28755d3670366895283cd26e3f))
+
+
+### Build System
+
+* no longer support Node 10 ([45a337a](https://github.com/lddubeau/karma-serve-static-map/commit/45a337af4b9e2b052b7023255b7263b908cc957c))
+
+
+### BREAKING CHANGES
+
+* We no longer support Node 10.
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/lddubeau/karma-serve-static-map/compare/v1.0.0...v2.0.0) (2019-12-24)
 
