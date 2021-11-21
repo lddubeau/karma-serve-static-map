@@ -38,7 +38,7 @@
     "@commitlint/config-angular": "^14.1.0",
     "chai": "^4.3.4",
     "conventional-changelog-cli": "^2.1.1",
-    "eslint": "^8.2.0",
+    "eslint": "^8.3.0",
     "eslint-config-lddubeau-base": "^6.1.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
