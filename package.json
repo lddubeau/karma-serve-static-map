@@ -36,7 +36,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.3.0",
     "@commitlint/config-angular": "^16.3.0",
-    "chai": "^4.3.7",
+    "chai": "^4.3.8",
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.47.0",
     "eslint-config-lddubeau-base": "^6.1.0",
