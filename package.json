@@ -41,7 +41,7 @@
     "eslint": "^8.57.1",
     "eslint-config-lddubeau-base": "^6.1.0",
     "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
